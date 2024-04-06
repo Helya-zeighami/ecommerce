@@ -17,6 +17,7 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
 import styles from "./cart.module.css";
+import Link from "next/link";
 
 type CartItem = {
   id: string;
@@ -61,7 +62,7 @@ const Cartpage = ({ params: { lang } }: Params) => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                {item.title}
+                <Link href={`/products/${item.id}`}>{item.title}</Link>
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Price: ${item.price}
