@@ -1,0 +1,47 @@
+
+.productsContainer {
+  padding: 20px;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.productsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.productTitle:hover {
+  color: #0070f3;
+}
+
+.productDescription {
+  margin-bottom: 15px;
+}
+
+.addButton {
+  background-color: #0070f3;
+  color: white;
+}
+
+.addButton:hover {
+  background-color: #0056b3;
+}

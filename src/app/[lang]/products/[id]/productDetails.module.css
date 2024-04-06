@@ -1,0 +1,14 @@
+.cartContainer {
+    display: flex;
+  }
+  .card{
+    width: 300px !important;
+    margin-top: 20px ;
+  }
+  .cartButton {
+    background-color: #0070f3;
+    color: white;
+  }
+  .image{
+    width: 300px !important;
+  }

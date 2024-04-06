@@ -1,0 +1,17 @@
+
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navLinks {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .navButton {
+    margin-inline: 10px;
+    text-transform: none;
+  }
+  
